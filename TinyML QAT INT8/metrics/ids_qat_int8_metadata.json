@@ -1,0 +1,85 @@
+{
+  "feature_columns": [
+    "CAN_ID_numeric",
+    "DLC",
+    "DATA[0]",
+    "DATA[1]",
+    "DATA[2]",
+    "DATA[3]",
+    "DATA[4]",
+    "DATA[5]",
+    "DATA[6]",
+    "DATA[7]"
+  ],
+  "class_names": [
+    "DoS",
+    "Flooding",
+    "Impersonation",
+    "Janus",
+    "Malfunction",
+    "Normal"
+  ],
+  "label_to_index": {
+    "DoS": 0,
+    "Flooding": 1,
+    "Impersonation": 2,
+    "Janus": 3,
+    "Malfunction": 4,
+    "Normal": 5
+  },
+  "scaler_min_": [
+    -0.0004997501382604241,
+    -0.1428571492433548,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scaler_scale_": [
+    0.0004997501382604241,
+    0.1428571492433548,
+    1.0,
+    1.0,
+    0.003921568859368563,
+    0.003921568859368563,
+    0.003952569328248501,
+    0.003921568859368563,
+    0.003968254197388887,
+    0.003921568859368563
+  ],
+  "scaler_data_min_": [
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scaler_data_max_": [
+    2002.0,
+    8.0,
+    0.0,
+    0.0,
+    255.0,
+    255.0,
+    253.0,
+    255.0,
+    252.0,
+    255.0
+  ],
+  "input_quantization_scale": 0.003921568859368563,
+  "input_quantization_zero_point": -128,
+  "output_quantization_scale": 0.00390625,
+  "output_quantization_zero_point": -128,
+  "baseline_accuracy": 0.9969962016935568,
+  "qat_keras_accuracy": 0.9971983134125518,
+  "int8_tflite_accuracy": 0.9971983134125518
+}
