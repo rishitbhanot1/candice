@@ -1,7 +1,7 @@
 <div align="center">
 
-# CAN Automotive Intrusion Detection Lab
-
+# CANDICE
+## CAN-based Anomaly and Network Detection for Intelligent Cybersecurity Evaluation
 **A research repository for CAN bus intrusion detection, model experimentation, and edge-oriented deployment.**
 
 [![Domain](https://img.shields.io/badge/domain-automotive%20cybersecurity-FFFFFF)](#about-the-lab)
