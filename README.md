@@ -56,7 +56,7 @@ Implementations are maintained under [`versions/`](versions/). Each version's ow
 
 | Version | Implementation | Main focus | Status |
 |---|---|---|---|
-| [V01 — TinyML QAT INT8](versions/v01-tinyml-qat-int8/) | TinyML CAN IDS with quantization-aware training | Neural-network classification and INT8 TensorFlow Lite conversion | Available |
+| [V01 — TinyML QAT INT8](TinyML%20QAT%20INT8/) | TinyML CAN IDS with quantization-aware training | Neural-network classification and INT8 TensorFlow Lite conversion | Available |
 
 **Status definitions**
 
